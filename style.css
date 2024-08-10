@@ -195,7 +195,13 @@
 
 .box {
   height: 340px;
-  width: 23%;
+  width: 100%;
+  max-width: 360px;
+  padding: 15px;
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  object-fit: cover;
   background-color: white;
   margin-top: 10px;
   transition-duration: 0.3s;
